@@ -1,0 +1,95 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# ML / Data artifacts
+# =========================
+data/
+datasets/
+*.csv
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.model
+*.pt
+*.pth
+
+
+# =========================
+# Model outputs / training runs
+# =========================
+models/
+checkpoints/
+runs/
+experiments/
+logs/
+
+# =========================
+# FastAPI / backend
+# =========================
+*.log
+logs/
+.env
+.env.*
+
+# =========================
+# Testing / coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Mypy / type checker
+# =========================
+.mypy_cache/
+.dmypy.json
+
+# =========================
+# Ruff / lint caches
+# =========================
+.ruff_cache/
+
+# =========================
+# Docker
+# =========================
+.dockerignore
