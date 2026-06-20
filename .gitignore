@@ -27,7 +27,6 @@ ENV/
 # =========================
 # ML / Data artifacts
 # =========================
-data/
 datasets/
 *.csv
 *.parquet
